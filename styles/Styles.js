@@ -1,0 +1,160 @@
+import {StyleSheet} from 'react-native';
+import {windowWidth, windowHeight} from '../utils/Dimensions';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  skipBtn: {
+    width: 80,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 5,
+    marginTop: 3,
+  },
+  doneBtn: {
+    width: 80,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 5,
+    marginTop: 3,
+  },
+  btnText: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 18,
+  },
+  dotsView: {
+    width: 5,
+    height: 5,
+    marginHorizontal: 3,
+  },
+  loginContainer: {
+    backgroundColor: '#f9fafd',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  loginLogo: {
+    height: 150,
+    width: 150,
+    resizeMode: 'cover',
+  },
+  loginText: {
+    fontFamily: 'Kufam-SemiBoldItalic',
+    fontSize: 28,
+    marginBottom: 10,
+    color: '#051d5f',
+  },
+  loginNavBtn: {
+    marginTop: 15,
+  },
+  loginForgetBtn: {
+    marginVertical: 35,
+  },
+  loginNavBtnText: {
+    fontSize: 18,
+    fontWeight: '500',
+    color: '#2e64e5',
+    fontFamily: 'Lato-Regular',
+  },
+  signupTextPrivate: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginVertical: 35,
+    justifyContent: 'center',
+  },
+  signupColor_TextPrivate: {
+    fontSize: 13,
+    fontWeight: '400',
+    fontFamily: 'Lato-Regular',
+    color: 'grey',
+  },
+  formBtnContainer: {
+    marginTop: 10,
+    width: '100%',
+    height: windowHeight / 15,
+    backgroundColor: '#2e64e5',
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 3,
+  },
+  formBtnTitleText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    fontFamily: 'Lato-Regular',
+  },
+  formInputContainer: {
+    marginTop: 5,
+    marginBottom: 10,
+    width: '100%',
+    height: windowHeight / 15,
+    borderColor: '#ccc',
+    borderRadius: 3,
+    borderWidth: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+  },
+  formInputIconStyle: {
+    padding: 10,
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRightColor: '#ccc',
+    borderRightWidth: 1,
+    width: 50,
+  },
+  formInput: {
+    padding: 10,
+    flex: 1,
+    fontSize: 16,
+    fontFamily: 'Lato-Regular',
+    color: '#333',
+  },
+  formInputField: {
+    padding: 10,
+    marginTop: 5,
+    marginBottom: 10,
+    width: windowWidth / 1.5,
+    height: windowHeight / 15,
+    fontSize: 16,
+    borderRadius: 8,
+    borderWidth: 1,
+  },
+  socialBtnContainer: {
+    marginTop: 10,
+    width: '100%',
+    height: windowHeight / 15,
+    padding: 10,
+    flexDirection: 'row',
+    borderRadius: 3,
+  },
+  socialBtnTitleText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    fontFamily: 'Lato-Regular',
+  },
+  socialBtnIconWrapper: {
+    width: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  socialBtnIcon: {
+    fontWeight: 'bold',
+  },
+  socialBtnTitleTextWrapper: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+export default styles;

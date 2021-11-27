@@ -1,0 +1,28 @@
+MAC
+--------
+
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | .\openssl sha1 -binary | .\openssl base64
+
+
+
+ANDROID
+----------
+
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | .\openssl sha1 -binary | .\openssl base64
+
+
+
+OneDrive\React Projects\Native Projects\Android\WeShare\openssl-0.9.8k_X64\bin\openssl.exe
+
+
+
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | 'OneDrive\React Projects\Native Projects\Android\WeShare\openssl-0.9.8k_X64\bin\openssl.exe' sha1 -binary | 'OneDrive\React Projects\Native Projects\Android\WeShare\openssl-0.9.8k_X64\bin\openssl.exe' base64
+
+
+C:\Users\94774\OneDrive\React Projects\Native Projects\Android\WeShare\openssl-0.9.8k_X64\bin\openssl.exe
+
+
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | 'C:\Users\94774\OneDrive\React Projects\Native Projects\Android\WeShare\openssl-0.9.8k_X64\bin\openssl.exe' sha1 -binary | 'C:\Users\94774\OneDrive\React Projects\Native Projects\Android\WeShare\openssl-0.9.8k_X64\bin\openssl.exe' base64
+
+f8:9f:b7:c9:ff:e6:ae:03:e0:29:e8:35:96:52:2d:b6:94:a3:73:0b
++J+3yf/mrgPgKeg1llIttpSjcws=
